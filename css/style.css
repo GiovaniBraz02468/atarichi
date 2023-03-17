@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+.navbar-img{
+    width:130px;
+    border-radius: 15px;
+} 
+
+.navbar-back{
+    background-color: #00465700;
+}
+
+
+.nav-color{
+    color:#004657;
+    font-weight: 700;
+}
+
+
+.nav-link:active{
+    color:  #004657;
+}
+
+.nav-link:visited{
+    color:  #00465700;
+}
+
+.nav-link:hover{
+    color:  #000000;
+}
+
+
+
+.link-img{
+    color: #00465700;
+}
+
+
+.link-img:active{
+    color:#00465700;
+}
+
+.link-img:visited{
+    color:  #004657;
+}
+
+.link-img:hover{
+    color:   #004657;
+}
+
+.nav-item{
+    background-color: rgba(255, 255, 255, 0.773);
+    margin-right: 3px;
+    border-radius: 15px;
+    
+}
+
+.iframe{
+    border-radius: 15px;
+}
+
+.col-quem{
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 15px;
+    color: black;
+    padding: 15px;
+}
+
+.parallax{
+    padding-top: 20px;
+}
+
+.menusando {
+    /* Coloque a imagem a ser usada como background */
+    background-image: url("../midia/papel-parede-dois-quem-somos.png");
+    
+    /* Defina uma altura para a visão que o usuário terá da imagem */
+
+    
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.servicos{
+    /* Coloque a imagem a ser usada como background */
+    background-image: url("../midia/papel-parede-serviços.png");
+    
+    /* Defina uma altura para a visão que o usuário terá da imagem */
+
+    
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.cases{
+    /* Coloque a imagem a ser usada como background */
+    background-image: url("../midia/papel-parede-cases.png");
+    
+    /* Defina uma altura para a visão que o usuário terá da imagem */
+
+    
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+@media (max-width: 991.5px){
+    .navbar-back{
+        background-color: #004657;
+    }
+    .nav-item{
+        background-color: rgba(0, 0, 0, 0);
+        margin-right: 3px;
+        border-radius: 15px;
+    }
+    .nav-link{
+        color: white;
+    }
+
+    .nav-link:active{
+        color: white;
+    }
+    
+    .nav-link:visited{
+        color: white;
+    }
+    
+    .nav-link:hover{
+        color: white;
+    }
+
+    .navbar-img{
+        width: 70px;
+    } 
+    
+}
+
+
+.servicos h3{
+    margin-bottom: 22px;
+}
+
+.div-servico{
+    width: 200px;
+    box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.238);
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.img-servico{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.div-servico p{
+    font-size: 9pt;
+}
+
+.div-servico p{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 577px){
+    .div-servico{
+        box-shadow: none;
+    }
+}
+
+
+.interno-card{
+    width: 95%;
+}
+
+.cases h3{
+    margin-bottom: 22px;
+}
+
+.card-esp{
+    margin-bottom: 15px;
+}
+
+.card{
+    margin: auto;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.card-body{
+    background-color: none;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
