@@ -95,7 +95,7 @@
     
     /* defina o background como fixo e posicione a imagem */
     background-attachment: fixed;
-    background-position: top;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 40px;
@@ -113,12 +113,37 @@
     
     /* defina o background como fixo e posicione a imagem */
     background-attachment: fixed;
-    background-position: top;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 40px;
     padding-bottom: 30px;
     font-weight: 700;
+}
+
+.contatos{
+    /* Coloque a imagem a ser usada como background */
+    background-image: url("../midia/papel-parede-contatos.png");
+    
+    /* Defina uma altura para a visão que o usuário terá da imagem */
+
+    
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 700;
+}
+
+.contatos h3{
+    color: white;
 }
 
 @media (max-width: 991.5px){
@@ -164,6 +189,7 @@
     border-radius: 15px;
     margin: auto;
     margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.548);
 }
 
 .img-servico{
@@ -178,6 +204,7 @@
 .div-servico p{
     margin: 0;
     padding: 0;
+    color: #000000;
 }
 
 @media (max-width: 577px){
@@ -205,13 +232,47 @@
 
 .card-body p{
     text-align: justify;
+    
 }
 
 .card-body{
+    border-radius: 15px;
+    margin-top: 10px;
     background-color: none;
+    background-color: rgba(255, 255, 255, 0.548);
 }
 
 .card{
     background-color: rgba(0, 0, 0, 0);
     border: 0px;
 }
+
+.div-contato{
+    background-color: rgba(255, 255, 255, 0.849);
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: 250ms;
+}
+
+.div-contato p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-contato:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 10px 10px rgba(255, 0, 0, 0.238);
+    transition: 250ms;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.4s ease-in-out;
+  }
+  
+.fade-in-visible {
+   opacity: 1;
+ }
